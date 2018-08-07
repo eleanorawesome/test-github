@@ -1,0 +1,247 @@
+{
+	"name": "eTitleScreen",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "eGlobal"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 871637371408221
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 292703005197080,
+					"parameters": {
+						"audio-file": "Town",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"Town\""
+					}
+				},
+				{
+					"id": "call-function",
+					"objectClass": "Function",
+					"sid": 361244451323090,
+					"parameters": {
+						"name": "\"Transition\"",
+						"parameter-n": [
+							"\"In\""
+						]
+					}
+				}
+			],
+			"sid": 510961151828607
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-item-missing",
+					"objectClass": "LocalStorage",
+					"sid": 250050764689068,
+					"parameters": {
+						"key": "\"SaveData\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Ctrl_Menu",
+					"sid": 541746028169071,
+					"parameters": {
+						"instance-variable": "MaxLinks",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 285468612724907,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-text",
+							"objectClass": "SpriteFont_Menu",
+							"sid": 574035013135557,
+							"parameters": {
+								"text-to-compare": "\"Load Game\"",
+								"case-sensitivity": "ignore-case"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "SpriteFont_Menu",
+							"sid": 854134204666061
+						}
+					],
+					"sid": 186623536322934
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-function",
+					"objectClass": "Function",
+					"sid": 158411084481947,
+					"parameters": {
+						"name": "\"Menu_Select\""
+					}
+				}
+			],
+			"actions": [],
+			"sid": 413009535947304,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-parameter",
+							"objectClass": "Function",
+							"sid": 825383774914927,
+							"parameters": {
+								"index": "0",
+								"comparison": 0,
+								"value": "\"New Game\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "remove-item",
+							"objectClass": "LocalStorage",
+							"sid": 154160471423341,
+							"parameters": {
+								"key": "\"SaveData\""
+							}
+						},
+						{
+							"id": "call-function",
+							"objectClass": "Function",
+							"sid": 200447125243100,
+							"parameters": {
+								"name": "\"SaveData_SetDefault\"",
+								"parameter-n": []
+							}
+						},
+						{
+							"id": "call-function",
+							"objectClass": "Function",
+							"sid": 640617516391033,
+							"parameters": {
+								"name": "\"Transition\"",
+								"parameter-n": [
+									"\"Out\"",
+									"\"LayoutChange\""
+								]
+							}
+						},
+						{
+							"id": "wait-for-signal",
+							"objectClass": "System",
+							"sid": 715090529784737,
+							"parameters": {
+								"tag": "\"LayoutChange\""
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 675282423877095,
+							"parameters": {
+								"group-name": "\"Player Engine\"",
+								"state": "activated"
+							}
+						},
+						{
+							"id": "go-to-layout-by-name",
+							"objectClass": "System",
+							"sid": 179783428112486,
+							"parameters": {
+								"layout": "\"Gatewood\""
+							}
+						}
+					],
+					"sid": 194330869714705
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-parameter",
+							"objectClass": "Function",
+							"sid": 464687340758172,
+							"parameters": {
+								"index": "0",
+								"comparison": 0,
+								"value": "\"Load Game\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "call-function",
+							"objectClass": "Function",
+							"sid": 369606583080665,
+							"parameters": {
+								"name": "\"Transition\"",
+								"parameter-n": [
+									"\"Out\"",
+									"\"LayoutChange\""
+								]
+							}
+						},
+						{
+							"id": "wait-for-signal",
+							"objectClass": "System",
+							"sid": 207701481102668,
+							"parameters": {
+								"tag": "\"LayoutChange\""
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 606000050584985,
+							"parameters": {
+								"group-name": "\"Player Engine\"",
+								"state": "activated"
+							}
+						},
+						{
+							"id": "go-to-layout-by-name",
+							"objectClass": "System",
+							"sid": 257190429753277,
+							"parameters": {
+								"layout": "\"Gatewood\""
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 657958581446470,
+							"parameters": {
+								"variable": "Door_ID",
+								"value": "2"
+							}
+						}
+					],
+					"sid": 939544210148383
+				}
+			]
+		}
+	],
+	"sid": 375021932460513
+}

@@ -1,0 +1,750 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 11200,
+	"name": "Demonoire",
+	"runtime": "c2",
+	"useWorker": false,
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Dictionary",
+			"name": "Dictionary",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Function",
+			"name": "Function",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "NodeWebkit",
+			"name": "NW.js",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "LocalStorage",
+			"name": "Local storage",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "gamepad",
+			"name": "Gamepad",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Sprite font",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "NinePatch",
+			"name": "9-patch",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Timer",
+			"name": "Timer",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "tint",
+			"name": "Tint",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "brightness",
+			"name": "Brightness",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "replacecolor",
+			"name": "Replace color",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "overlay",
+			"name": "Overlay",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "warpobjectmask",
+			"name": "Warp object mask",
+			"author": "Scirra",
+			"version": "r112",
+			"bundled": false
+		}
+	],
+	"uniqueId": "sib4ekl5d99",
+	"objectTypes": {
+		"items": [],
+		"subfolders": [
+			{
+				"items": [
+					"Audio",
+					"Browser",
+					"Dictionary",
+					"Function",
+					"Mouse",
+					"NWjs",
+					"Keyboard",
+					"Ctrl_Cutscenes",
+					"LocalStorage",
+					"Ctrl_Menu",
+					"Gamepad"
+				],
+				"subfolders": [],
+				"name": "System"
+			},
+			{
+				"items": [
+					"Animated_Tile",
+					"Tilemap_Dungeon",
+					"Tilemap_Collision",
+					"JojoHutExterior",
+					"JojosHutBackground",
+					"Tilemap_Gatewood"
+				],
+				"subfolders": [],
+				"name": "Backdrops"
+			},
+			{
+				"items": [
+					"Spritefont_HUD",
+					"HUD_Heart",
+					"HUD_Backing",
+					"HUD_StaminaBar",
+					"HUD_Item"
+				],
+				"subfolders": [],
+				"name": "HUD"
+			},
+			{
+				"items": [
+					"Player_Sword",
+					"Player_Mask",
+					"Player_Base"
+				],
+				"subfolders": [],
+				"name": "Player"
+			},
+			{
+				"items": [
+					"En_Slime_Base",
+					"En_Slime_Mask",
+					"En_Spikes",
+					"En_Timer",
+					"En_Skeleton_Mask",
+					"En_Statue",
+					"Projectile_Statue",
+					"En_Slime_Mask2",
+					"En_Slime_Base2",
+					"En_Skeleton_Base",
+					"En_Ghost_Base",
+					"En_Ghost_Mask",
+					"GhostZone",
+					"Projectile_Skeleton",
+					"En_Golem_Mask",
+					"En_Golem_Base",
+					"En_Demon_Base",
+					"En_Demon_Mask",
+					"En_Demon_ShockwaveSpawner",
+					"En_Demon_SlidePoint",
+					"En_Demon_Sword",
+					"En_Demon_Trail",
+					"Projectile_Demon_Bat",
+					"Projectile_Demon_Sword",
+					"Projectile_Golem"
+				],
+				"subfolders": [],
+				"name": "Enemies"
+			},
+			{
+				"items": [
+					"Gem",
+					"Destructible",
+					"Trigger_Door",
+					"GateStatue",
+					"CameraZone",
+					"Door",
+					"Trigger_Warp",
+					"DungeonDoor"
+				],
+				"subfolders": [],
+				"name": "Objects"
+			},
+			{
+				"items": [
+					"Particle",
+					"Transition",
+					"Darkness",
+					"Light",
+					"Lava_Warp",
+					"Lava_Glow"
+				],
+				"subfolders": [],
+				"name": "FX"
+			},
+			{
+				"items": [
+					"Logo"
+				],
+				"subfolders": [],
+				"name": "Misc"
+			},
+			{
+				"items": [
+					"Dialogue_Arrow",
+					"DialogueBox",
+					"SpriteFont_Dialogue",
+					"SpriteFont_Menu",
+					"DialogueBox2",
+					"DialogueBox_AreaName",
+					"Pause_Item",
+					"SpriteFont_AreaName",
+					"SpriteFont_Generic",
+					"TiledBackground",
+					"SpriteFont_Tiny"
+				],
+				"subfolders": [],
+				"name": "GUI"
+			},
+			{
+				"items": [
+					"JoJo",
+					"Item",
+					"Item_Arrow"
+				],
+				"subfolders": [],
+				"name": "JoJos Hut"
+			}
+		]
+	},
+	"autosaveData": null,
+	"containers": [
+		{
+			"members": [
+				"Player_Base",
+				"Player_Mask"
+			],
+			"selectMode": "normal"
+		},
+		{
+			"members": [
+				"En_Slime_Base",
+				"En_Slime_Mask"
+			],
+			"selectMode": "normal"
+		},
+		{
+			"members": [
+				"En_Slime_Base2",
+				"En_Slime_Mask2"
+			],
+			"selectMode": "normal"
+		},
+		{
+			"members": [
+				"En_Skeleton_Base",
+				"En_Skeleton_Mask"
+			],
+			"selectMode": "normal"
+		},
+		{
+			"members": [
+				"En_Ghost_Base",
+				"En_Ghost_Mask"
+			],
+			"selectMode": "normal"
+		},
+		{
+			"members": [
+				"En_Golem_Base",
+				"En_Golem_Mask"
+			],
+			"selectMode": "normal"
+		},
+		{
+			"members": [
+				"En_Demon_Base",
+				"En_Demon_Mask"
+			],
+			"selectMode": "normal"
+		}
+	],
+	"families": {
+		"items": [
+			"EnemyBases",
+			"Z_Sorting",
+			"EnemyMasks",
+			"Hazards"
+		],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [],
+		"subfolders": [
+			{
+				"items": [
+					"ObjectBank",
+					"GlobalLayers",
+					"TitleScreen",
+					"Credits"
+				],
+				"subfolders": [],
+				"name": "Misc Layouts"
+			},
+			{
+				"items": [
+					"Gatewood",
+					"Jojos Hut"
+				],
+				"subfolders": [],
+				"name": "Overworld Rooms"
+			},
+			{
+				"items": [
+					"Dungeon Intro",
+					"Dungeon Entrance",
+					"Dungeon_Template",
+					"Dungeon_1_1",
+					"Dungeon_1_2",
+					"Dungeon_1_3",
+					"Dungeon_1_4",
+					"Dungeon_1_5",
+					"Dungeon_2_1",
+					"Dungeon_2_2",
+					"Dungeon_2_3",
+					"Dungeon_2_4",
+					"Dungeon_2_5",
+					"Dungeon_3_1",
+					"Dungeon_3_2",
+					"Dungeon_3_3",
+					"Dungeon_3_4",
+					"Dungeon_3_5"
+				],
+				"subfolders": [],
+				"name": "Dungeon Rooms"
+			}
+		]
+	},
+	"eventSheets": {
+		"items": [
+			"eGameRoom",
+			"eTitleScreen",
+			"eGlobal",
+			"eDungeon_Intro",
+			"eCredits"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"sound": {
+			"items": [
+				{
+					"name": "Enemy_Hurt.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Player_Slash.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Enemy_Destroy.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Collectible_Pickup.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Destructible_Destroy.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Player_Hurt.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Player_Dash.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Slime_Jump.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Player_Hurt2.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "EvilLaugh.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "LightTorches.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Player_Slash2.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Player_Sword_1.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Player_Sword_2.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Player_Sword_3.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Skeleton_Throw.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Statue_Shoot.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Enemy_Destroy_Alt.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Menu_Invalid.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Potion.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "RoomClear.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "DoorOpen.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "BoulderThrow.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Heart.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "JojoTransform.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "BossDeath.webm",
+					"type": "audio/webm; codecs=opus"
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [
+				{
+					"name": "Boss.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Boss.ogg",
+					"type": "audio/ogg; codecs=vorbis"
+				},
+				{
+					"name": "Boss.m4a",
+					"type": "audio/mp4"
+				},
+				{
+					"name": "Credits.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Credits.m4a",
+					"type": "audio/mp4"
+				},
+				{
+					"name": "Credits.ogg",
+					"type": "audio/ogg; codecs=vorbis"
+				},
+				{
+					"name": "Dungeon.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Dungeon.ogg",
+					"type": "audio/ogg; codecs=vorbis"
+				},
+				{
+					"name": "Dungeon.m4a",
+					"type": "audio/mp4"
+				},
+				{
+					"name": "Town.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Town.ogg",
+					"type": "audio/ogg; codecs=vorbis"
+				},
+				{
+					"name": "Town.m4a",
+					"type": "audio/mp4"
+				},
+				{
+					"name": "JojosHut.webm",
+					"type": "audio/webm; codecs=opus"
+				},
+				{
+					"name": "Pre_Dungeon.webm",
+					"type": "audio/webm; codecs=opus"
+				}
+			],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png"
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png"
+				},
+				{
+					"name": "icon-114.png",
+					"type": "image/png"
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png"
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png"
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png"
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [],
+		"subfolders": []
+	},
+	"properties": {
+		"description": "",
+		"version": "1",
+		"author": "Tokinsom & 7soul & AngryRobot",
+		"authorEmail": "",
+		"authorWebsite": "http://construct.net",
+		"appId": "com.mycompany.myapp",
+		"pixelRounding": true,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-integer-scale",
+		"fullscreenQuality": "low",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useHighDpi": true,
+		"orientations": "any",
+		"enableWebGL": true,
+		"sampling": "point",
+		"downscaling": "medium",
+		"loaderStyle": "none",
+		"preloadSounds": true,
+		"clearBackground": true,
+		"enhancedAccelerationPrecision": true
+	},
+	"viewportWidth": 312,
+	"viewportHeight": 240,
+	"firstLayout": "TitleScreen"
+}
